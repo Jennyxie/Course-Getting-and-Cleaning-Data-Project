@@ -17,13 +17,17 @@ CodeBook.md describes the variables, the data, and any transformations or work t
 
 run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file. 
 
-### The 5 Steps R Script will Perfrom
+### R Script will Perfrom the Following 5 Steps
 
 Step 1: Merge the train and the test datasets to create one joint dataset.
-Step 2. Extract only the measurements on the mean and standard deviation for each measurement. 
-Step 3. Use descriptive activity names to name the activities in the dataset.
-Step 4. Appropriately label the dataset with descriptive activity names. 
-Step 5. Create a second, independent tidy dataset with the average of each variable for each activity and each subject. 
+
+Step 2: Extract only the measurements on the mean and standard deviation for each measurement. 
+
+Step 3: Use descriptive activity names to name the activities in the dataset.
+
+Step 4: Appropriately label the dataset with descriptive activity names. 
+
+Step 5: Create a second, independent tidy dataset with the average of each variable for each activity and each subject. 
 
 The output of step 5 are two files: merged_data.txt" and "data_with_means.txt". They are included in this repository.
 
@@ -32,4 +36,5 @@ The output of step 5 are two files: merged_data.txt" and "data_with_means.txt". 
 This script automatically loads the following libraries:
 
 plyr
+
 reshape2
